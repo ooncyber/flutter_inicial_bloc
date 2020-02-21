@@ -1,16 +1,22 @@
-# app_inicial_bloc
+# App inicial em flutter utilizando o padrão BLoC
 
-A new Flutter project.
+Projeto inicial do flutter (aquele, de clicar no + e incrementar o contador), feito com gerência de estado.
 
-## Getting Started
+## Qual a finalidade desse repositório?
 
-This project is a starting point for a Flutter application.
+A idéia inicial do repo foi criá-lo para divulgar para colegas entenderem como funciona o padrão BLoC inicial, para devs avançados sabem que o BLoC possui várias utilidades, e com esse repositório, devs novos poderão endendê-lo mais fácilmente.
 
-A few resources to get you started if this is your first Flutter project:
+## O padrão bloc então, é só algumas linhas?
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+Não, nesse projeto o intuito é mostrar como o bloc funciona: através de streams.
+O padrão BLoC necessita de dois packages, sendo eles o [rxdart](https://pub.dev/packages/rxdart) e o [bloc_pattern](https://pub.dev/packages/bloc_pattern), imprescindíveis para projetos grandes.
+O padrão abordado aqui é para ter a idéia inicial, o bloc não foje disso.
+O outro motivo também, é que você pode utilizar esse pequeno padrão aqui, para projetos pequenos.
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Pré-requisitos
+
+Basicamente nenhum, não há a necessidade de instalação de pacotes para utilizar o pattern exposto aqui.
+
+### Adendos
+
+Gostaria de agradecer, primeiramente a Deus, e depois, ao canal [Flutterando](https://www.youtube.com/channel/UCplT2lzN6MHlVHHLt6so39A), maior canal de Flutter, do Brasil!
